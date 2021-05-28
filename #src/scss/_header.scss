@@ -55,12 +55,18 @@ body.lock{
         margin-left: 20px;
         color: $text-color;
     }
-    & i{
-        margin-left: 20px;
-        color: $text-color;
-        font-size: 25px;
+    & .icon-facebook{
+        width:19px;
     }
-    & i:hover{
+    & a{
+        margin-left: 20px;
+    }
+    & svg{
+        color: #ffffff;
+        width: 30px;
+        
+    }
+    & svg:hover{
         transform: scale(1.3);
     }
 }

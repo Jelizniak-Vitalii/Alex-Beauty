@@ -66,6 +66,9 @@ $maxWidth: 1380;
     justify-content:space-around;
     padding: 20px;
 }
+.feedback__form{
+    margin-right: 10px;
+}
 .feedBack__form_title{
     font-size: 30px;
     margin-bottom: 20px;
@@ -97,6 +100,10 @@ $maxWidth: 1380;
 }
 .avatar {
     text-align: center;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .avatar__title {
     font-size: 30px;
@@ -119,24 +126,53 @@ $maxWidth: 1380;
 
 
 @media (max-width: 820px){
+
     .contact-info{
         flex-wrap: wrap-reverse;
         margin-top: 5vh;
+        .contact-column{
+            margin-top: 30px;
+        }
     }
-    .contact-column{
-        margin-top: 30px;
-    }
+    
     .feedback-content{
         flex-wrap: wrap-reverse;
+        .feedBack__form_title{
+            margin: 25px 0;
+        }
+        .feedBack__form_input{
+            padding-right: 0;
+            border-radius: 10px;
+        }
+        .feedBack__form_text{
+            border-radius: 10px;
+        }
     }
-    .feedBack__form_input{
-        padding-right: 0;
-        border-radius: 10px;
+}
+@media (max-width: 690px) {
+    .contact-column & .a{
+        min-width: 80px;
+        height: 80px;
     }
-    .feedBack__form_text{
-        border-radius: 10px;
+    .feedBack {
+        margin: 50px 0;
     }
-    .feedBack__form_title{
-        margin: 25px 0;
+    .feedBack__form{
+        width: 80%;
+        .feedBack__form_input{
+            width: 100%;
+        }
     }
+}
+@media (max-width:510px) {
+    .main {
+        padding-top: 120px;
+    }
+    .contact-info{
+        margin-top: 0;
+    }
+    .avatar__image{
+        width:80%;
+    }
+    
 }
