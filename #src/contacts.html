@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacts.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script type="module" src="js/script.js"></script>
+    <title>Контакты | Alex Beauty Home</title>
+</head>
+<body>
+    @@include('./_header.html')
+    
+    <main class="main">
+        <section class="contact">
+            <div class="container">
+                @@include('./_form.html')
+                <div class="contact-content">
+                    <div class="contact__title"><h1>Контакты</h1></div>
+                    <div class="contact-info">
+                        <div class="contact-column">
+                            <div class="a"><i class="fas fa-map-marker-alt"></i></div>
+                            <h3 class="contact-column__title">Адрес</h3>
+                            <h4 class="contact-column__sub-title">ул.Ленина (Воскресенская) 15</h4>
+                        </div>
+                        <div class="contact-column">
+                            <div class="a"><i class="fas fa-clock"></i></div>
+                            <h3 class="contact-column__title">Работаем</h3>
+                            <h4 class="contact-column__sub-title">
+                                Работаем по предварительной записи<br>
+                                <br>
+                                С 9:00 до 20:00
+                            </h4>
+                        </div> 
+                        <div class="contact-column">
+                            <div class="a"><i class="fas fa-mobile-alt"></i></div>
+                            <h3 class="contact-column__title">Телефон</h3>
+                            <h4 class="contact-column__sub-title">Телефон: +38(098) 128 15 77</h4>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="feedBack">
+                    <div class="container">
+                        <div class="feedback-content">
+                            <form class="feedBack__form">
+                                <h3 class="feedBack__form_title">Напишите нам</h3>
+                                <div class="form__item">
+                                    <input class="feedBack__form_input" type="text" placeholder="Имя" required>
+                                </div>
+                                <div class="form__item">
+                                    <input class="feedBack__form_input" type="email" placeholder="Электроный адрес" required>
+                                </div>
+                                <div class="form__item">
+                                    <textarea class="feedBack__form_text" placeholder="Сообщение"></textarea required>
+                                </div>
+                                <div class="form__item">
+                                    <button class="feedBack__form_button">Отправить</button>
+                                </div>
+                            </form>
+        
+                            <div class="avatar">
+                                <h3 class="avatar__title">Александра Аносова</h3>
+                                <h4 class="avatar__description">Основатель,идейный вдохновитель</h4>
+                                <div class="avatar__image"><img src="./img/avatar.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4199.472099589002!2d35.03833148447466!3d48.46609135916213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e6601a2b35%3A0xf1453d46208b07ce!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sIDE1LCDQlNC90LjQv9GA0L4sINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNDkwMDA!5e0!3m2!1sru!2sfr!4v1616591140493!5m2!1sru!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+    </main>
+    @@include('./_footer.html')
+</body>
+</html>

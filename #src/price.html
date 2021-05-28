@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/price.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <script type="module" src="js/script.js"></script>
+    <title>Услуги и цены</title>
+</head>
+<body>
+    @@include('./_header.html')
+    <main>
+            <h1 class="price__title">Услуги и цены</h1>
+        <section class="stylist-services">
+            <div class="container">
+                @@include('./_form.html')
+                <h2 class="stylist-services__title">Прайс Лист Идеального Взгляда</h2>
+            <div class="stylist-services__content">
+                <div class="stylist-services__img">
+                    <img src="./img/services-stylist.jpg">
+                </div>
+
+                <table class="table-stylist">
+                    <tr>
+                        <td>Моделирование Бровей (Без окрашивания) 3 вида коррекции</td>
+                        <td> 200 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Окрашивание бровей Хной или Проф Краской (без Коррекции)</td>
+                        <td> 200 грн</td>
+                    </tr>
+                    <tr>
+                        <td> Художественное оформление Бровей (3 вида коррекции +окрашивание Хной или Проф Краской)</td>
+                        <td>350 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Долговременная укладка Бровей с коррекцией  (для непослушных, густых, жёстких Бровей) БЕЗ окрашивания</td>
+                        <td>400 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Долговременная укладка Бровей с Коррекцией + Окрашивание</td>
+                        <td>550 грн</td>
+                    </tr>
+                </table>
+
+
+            </div>
+            </div>
+        </section>
+    </main>
+
+    @@include('./_footer.html')
+</body>
+</html>

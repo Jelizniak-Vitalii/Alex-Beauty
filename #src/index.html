@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit='cover'>
+    <link rel="stylesheet" href="css/index.min.css">
+    <script src="js/script.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Alex Beauty Home</title>
+</head>
+<body>
+    @@include('./_header.html')
+    
+   <main>
+    
+       <section class="entry">
+           <div class="container">
+            @@include('./_form.html')
+                <div class="entry-content">
+                    <div class="entry-content__image">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <nav class="content-nav">
+                        <ul>
+                            <li><a href="">Косметологические услуги</a></li>
+                            <li><a href="">Шугаринг</a></li>
+                            <li><a href="">Прически</a></li>
+                            <li><a href="">Макияж</a></li>
+                            <li><a href="">Обучение</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <h1 class="entry-content__title">Студия Красоты</h1>
+                <h1 class="entry-content__title_2">ALEX Beauty Home</h1>
+           </div>
+       </section>
+
+
+       <section class="info">
+           <div class="container">
+               <div class="info-block">
+                    <div class="info__image"><img src="./img/avatar.png" alt="avatar"></div>
+                    <div class="info-block__description">
+                        <h4 class="info-block__title">Милые мои, Девочки с Королевской душой</h4>
+                        <p class="info-block__text">Рада приветствовать КАЖДУЮ из вас в студии красоты ALEX Beauty Home  которая находится в самом центре города Днепр или в режиме ОНЛАЙН.</p>
+                        <h4 class="info-block__sub-title">Наша студия и каждый мастер предпочитают:</h4>
+                        <strong class="info-block__sub-title_items">Натуральность</strong>
+                        <strong class="info-block__sub-title_items">Естественность</strong>
+                        <strong class="info-block__sub-title_items">Внешнюю и ВНУТРЕННЮЮ красоту</strong>
+                        <p class="info-block__text">
+                            Мы НЕ ДЕЛАЕМ из Вас Обезьянок
+                            А творим чудеса и вы из Прекрасных Принцесс  превращаетесь в Потрясающих Королев.
+                        </p>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+       <section class="our-services">
+           <div class="services">
+               <h3 class="services__title">НАШИ УСЛУГИ</h3>
+               <button class="services__button">КАТАЛОГ</button>
+           </div>
+       </section>
+
+       <section class="learn-info">
+            <div class="container">
+                <div class="learn">
+                    <h2 class="learn__title">ОНЛАЙН ОБУЧЕНИЕ ДЛЯ КАЖДОЙ</h2>
+                    <h4 class="learn__sub-title">&#8226; Сама себе Бровист</h4>
+                    <h4 class="learn__sub-title">&#8226; Сама Себе Визажист</h4>
+                    <h4 class="learn__sub-title">&#8226; Сама Себе Косметолог</h4>
+                    <h4 class="learn__sub-title">&#8226; Массаж Лица</h4>
+                    <div class="learn__link"><a href="#">Перейти</a></div>
+                </div>
+
+                <div class="learn-description">
+                    <p class="learn-description__text">И самое главное, что мы Думаем о Вашей внутренней красоте и Спокойствии Души.</p>
+                    <p class="learn-description__text">У нас вы можете записаться на "Кофе с Психологом"
+                        Или пройти комплекс сеансов для вас или ваших детей.</p>
+                    <p class="learn-description__text">
+                        У нас самые лучшие мастера<br>
+                        Уютная домашняя атмосфера<br>
+                        Мы работаем на КАЧЕСТВО<br>
+                        Регулярно Совершенствуемся и Стараемся ТОЛЬКО для вас<br>
+                        ️Для ВАС всё самое лучшее</p>
+                    <p class="learn-description__text">Мы рады знакомству  
+                        Дарим каждой из Вас СКИДКУ -20% на Любую Первую Процедуру или ОНЛАЙН Обучение или КОСМЕТИКУ.</p>
+                </div>
+            </div>
+       </section>
+   </main>
+   @@include('./_footer.html')
+
+</body>
+</html>
