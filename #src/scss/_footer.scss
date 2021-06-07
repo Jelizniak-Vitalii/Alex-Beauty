@@ -78,6 +78,7 @@ $maxWidth: 1380;
         display: none;
     }
     .footer__content{
+        flex-direction: column-reverse;
         justify-content:center;
         padding: 0px 30px;
     }

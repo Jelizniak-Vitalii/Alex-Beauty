@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,40 +12,268 @@
     @@include('./_header.html')
     <main>
             <h1 class="price__title">Услуги и цены</h1>
-        <section class="stylist-services">
+        <section class="price">
             <div class="container">
                 @@include('./_form.html')
-                <h2 class="stylist-services__title">Прайс Лист Идеального Взгляда</h2>
-            <div class="stylist-services__content">
-                <div class="stylist-services__img">
-                    <img src="./img/services-stylist.jpg">
+                
+                <div class="perfect-look">
+                    <h2 class="perfect-look__title title">Прайс Лист Идеального Взгляда</h2>
+
+                    <div class="perfect-look__content content">
+                        <div class="perfect-look__img content-img">
+                            <img src="./img/brovi.jpg">
+                        </div>
+        
+                        <table class="table-perfect-look table">
+                            <tr>
+                                <td>Моделирование Бровей (Без окрашивания) 3 вида коррекции</td>
+                                <td> 200 грн</td>
+                                <td>Длительность 20-30 минут</td>
+                            </tr>
+                            <tr>
+                                <td>Окрашивание бровей Хной или Проф Краской (без Коррекции)</td>
+                                <td> 200 грн</td>
+                                <td>Длительность 20-30 минут</td>                    </tr>
+                            <tr>
+                                <td> Художественное оформление Бровей (3 вида коррекции +окрашивание Хной или Проф Краской)</td>
+                                <td>350 грн</td>
+                                <td>Длительность 30-45 минут</td>
+                            </tr>
+                            <tr>
+                                <td>Долговременная укладка Бровей с коррекцией  (для непослушных, густых, жёстких Бровей) БЕЗ окрашивания</td>
+                                <td>400 грн</td>
+                                <td>Длительность 45-50 минут</td>
+                            </tr>
+                            <tr>
+                                <td>Долговременная укладка Бровей с Коррекцией + Окрашивание</td>
+                                <td>550 грн</td>
+                                <td>Длительность 20-30 минут</td>
+                            </tr>
+                            <tr>
+                                <td>Художественное оформление Бровей (3 вида коррекции + окрашивание Хной или Проф Краской)</td>
+                                <td>350 грн</td>
+                                <td>Длительность 30-45 минут</td>
+                            </tr>
+                            <tr>
+                                <td>Молекулярное Восстановление Ресниц (Составы FlaxLash)</td>
+                                <td>550 грн </td>
+                                <td>Длительность 1:30 часа +Кератин в подарок</td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+
+                <div class="stylist">
+                    <h2 class="stylist-services__title title">Прайс Стилиста</h2>
+
+                    <div class="stylist-content content">
+                        <div class="stylist-table__content table-content">
+                            <table class="table-stylist table">
+                                <tr>
+                                    <h3 class="table-stylist__title table-title">Макияж</h3>
+                                    <td>Нюд</td>
+                                    <td>350 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Дневной</td>
+                                    <td>400 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Вечерний и Smoky Eyes</td>
+                                    <td>500 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Для Фотосессии</td>
+                                    <td>550 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Свадебный Макияж</td>
+                                    <td>750 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Пробный Свадебный</td>
+                                    <td>550 грн</td>
+                                </tr>
+                            </table>
+        
+                            <table class="table-stylist table">
+                                <h3 class="table-stylist__title table-title">Причёски и Плетение Кос</h3>
+                                <tr>
+                                    <td>Экспресс - Прически (Хвосты, Пучки)</td>
+                                    <td>от 350 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Плетение Кос</td>
+                                    <td>от 250 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Укладка волос (Объем, Лёгкие локоны)</td>
+                                    <td>от 350 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Накрутка локонов</td>
+                                    <td>от 350 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Причёски с Элементами Локонов и Плетения</td>
+                                    <td>от 500 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Свадебная Причёска </td>
+                                    <td> от 700 грн</td>
+                                </tr>
+                            </table>
+        
+                            <table class="table-stylist table">
+                                <h3 class="table-stylist__title table-title">Экспресс Образ</h3>
+                                <tr>
+                                    <td>Макияж + Укладка</td>
+                                    <td>750 грн</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="stylist__img content-img">
+                            <img src="./img/services-stylist.jpg">
+                        </div>
+                    </div>
                 </div>
 
-                <table class="table-stylist">
-                    <tr>
-                        <td>Моделирование Бровей (Без окрашивания) 3 вида коррекции</td>
-                        <td> 200 грн</td>
-                    </tr>
-                    <tr>
-                        <td>Окрашивание бровей Хной или Проф Краской (без Коррекции)</td>
-                        <td> 200 грн</td>
-                    </tr>
-                    <tr>
-                        <td> Художественное оформление Бровей (3 вида коррекции +окрашивание Хной или Проф Краской)</td>
-                        <td>350 грн</td>
-                    </tr>
-                    <tr>
-                        <td>Долговременная укладка Бровей с коррекцией  (для непослушных, густых, жёстких Бровей) БЕЗ окрашивания</td>
-                        <td>400 грн</td>
-                    </tr>
-                    <tr>
-                        <td>Долговременная укладка Бровей с Коррекцией + Окрашивание</td>
-                        <td>550 грн</td>
-                    </tr>
-                </table>
+                <div class="cosmetology">
+                    <h2 class="cosmetology__title title">Косметология</h2>
+                    <div class="cosmetology-content content">
+                        <div class="cosmetology__img content-img">
+                            <img src="./img/cosmetic.jpg">
+                        </div>
+                            <div class="cosmetology-table__content table-content">
+                                <table class="table-cosmetology table">
+                                    <h3 class="cosmetology-table__title table-title">Омоложение И Массаж Лица</h3>
+                                    <tr>
+                                        <td>Лифтинг Массаж Лица, Шеи и Зоны декольте</td>
+                                        <td>300 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Лифтинг Массаж Лица, Шеи и Зоны декольте с Гиалуроновым Уходом</td>
+                                        <td>350 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Лифтинг Массаж Лица, Шеи и Зоны декольте<br> + Восстанавливающая маска по типу кожи</td>
+                                        <td>450 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Лифтинг Массаж Лица, Шеи и Зоны декольте<br> + Гиалуроновый Уход<br> + Восстанавливающая Маска по типу кожи </td>
+                                        <td>550 грн</td>
+                                    </tr>
+                                </table>
 
+                                <table class="table-cosmetology table">
+                                    <h3 class="cosmetology-table__title table-title">Омоложение и Пептидное Восстановление Структуры Кожи</h3>
+                                    <tr>
+                                        <td>1 сеанс</td>
+                                        <td>850 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 сеанса</td>
+                                        <td>2400 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5 сеансов</td>
+                                        <td>3750 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td> + Альгинатная маска в подарок</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
 
-            </div>
+                                <table class="table-cosmetology table">
+                                    <tr>
+                                        <td>Ультразвуковая Чистка Лица</td>
+                                        <td>500 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механическая Чистка Лица</td>
+                                        <td>550 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Глубокая чистка Лица (входят 3 техники очищения)</td>
+                                        <td>750 грн</td>
+                                    </tr>
+                                </table>
+
+                                <table class="table-cosmetology table">
+                                    <tr>
+                                        <td>Единоразово</td>
+                                        <td>300 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3-6 сеансов</td>
+                                        <td>750-1500 грн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9 сеансов</td>
+                                        <td>2000 грн</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shugaring">
+                    <h2 class="shugaring__title title">Прайс Шугаринг</h2>
+                    <div class="shugaring-content content">
+                        <table class="table-shugaring table">
+                            <tr>
+                                <td>Лицо</td>
+                                <td>от 50 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Подмышки</td>
+                                <td>100 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Бикини классика</td>
+                                <td>200 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Бикини</td>
+                                <td>300 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Голени</td>
+                                <td>200 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Бедра</td>
+                                <td>200 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Ножки полностью</td>
+                                <td>350 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Руки с Локтем</td>
+                                <td>170 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Руки полностью</td>
+                                <td>200 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Ягодицы</td>
+                                <td>150 грн</td>
+                            </tr>
+                            <tr>
+                                <td>Полоска на животе</td>
+                                <td>50 грн</td>
+                            </tr>
+                        </table>
+    
+                        <div class="shugaring__img content-img">
+                            <img src="./img/shugaring.jpg">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
