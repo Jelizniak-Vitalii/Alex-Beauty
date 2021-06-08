@@ -35,7 +35,7 @@ body.lock{
         margin-right: 0px;
     }
 }
-.header-content picture{
+.header-content__img{
     display: none;
 }
 
@@ -159,12 +159,21 @@ body.lock{
     .header{
         padding: 15px 25px;
     }
-    .header-content{
-        & picture{
-            display: block;
-            width: 85px;
-        }
-    }   
+    .header-content__img{
+        display: block;
+        width: 85px;
+    }
+    // .header-content{
+    //     & picture{
+    //         display: block;
+    //         width: 85px;
+    //     }
+    // }   
+}
+@media screen and (max-width: 500px){
+    .feedback a{
+        margin-left: 15px;
+    }
 }
 
 

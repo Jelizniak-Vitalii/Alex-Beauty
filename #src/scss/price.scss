@@ -71,7 +71,7 @@ main{
             background-color: #eee;
         }
 }
-.content-img,.table-perfect-look,.table-shugaring{
+.content-img,.table-shugaring{
     width: 45%;
 }
 
@@ -100,7 +100,7 @@ main{
     .stylist-content,.shugaring-content{
         flex-direction: column-reverse;
     }
-    .table-perfect-look,.table-shugaring{
+    .table-shugaring{
         width: 90%;
     }
 }

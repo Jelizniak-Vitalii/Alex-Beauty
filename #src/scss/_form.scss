@@ -10,15 +10,9 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
-    // opacity: 0;
-    // transition: all 1.5s ease 0s;
-    // transition-delay: 0.5s;
 }
 .section-form.active,.form.active{
     display: flex;
-    // animation: anim 3s;
-    // opacity: 1;
-    // transition: all 1.5s ease 0s;
 }
 .form{
     position: relative;
@@ -28,22 +22,13 @@
     width: 500px;
     background-color: rgb(101, 107, 119);
     border-radius: 30px;
-    // opacity: 0;
-    // transition: all 1.5s ease 0s;
-    // transform: translate(0px, -100%);
+
     
 }
 
-// .form.active{
-//     display: flex;
-// }
-
-
-  
-
 .form__close {
     position: relative;
-    top: 12px;
+    top: 20px;
     left: 42%;
     color: #fff;
     font-weight: 800;
@@ -56,7 +41,7 @@
 .form__title {
     margin: 10px 0;
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -64,17 +49,19 @@
     outline: none;
     width: 80%;
     margin: 10px 0;
-    padding: 15px;
+    padding: 20px;
     border-radius: 15px;
+    font-size: 17px;
 }
 
 .form__button {
     padding: 10px;
     width: 40%;
     border-radius: 15px;
-    margin: 20px 0;
+    margin: 30px 0;
     background-color: #f69a73;
     border-color: #d87d56;
+    font-size: 18px;
 }
 
 .button-callBack.close{

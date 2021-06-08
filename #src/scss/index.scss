@@ -41,22 +41,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-.content-nav {
-    & ul{
-        display: flex;
-    }
-    & li{
-        margin-right: 20px;
-    }
-    & a{
-        color: #AF7D7D;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-    }
-    & li:last-child{
-        margin-right: 0px;
-    }
-}
+
 .entry-content__title {
     margin-top: 20px;
     font-weight: 600;
